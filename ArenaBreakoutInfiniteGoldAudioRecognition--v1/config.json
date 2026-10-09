@@ -1,0 +1,23 @@
+{
+    "sample_rate": 22050,
+    "capture_sample_rate": 48000,
+    "capture_seconds": 0.05,
+    "analysis_interval": 0.05,
+    "pre_roll_seconds": 0.15,
+    "post_roll_seconds": 1.1,
+    "n_fft": 512,
+    "hop_length": 110,
+    "n_mels": 64,
+    "energy_threshold": 0.005,
+    "min_similarity": 0.7,
+    "min_margin": 0.045,
+    "confirm_count": 2,
+    "cooldown_seconds": 0.1,
+    "time_scales": [
+        0.92,
+        1.0,
+        1.08
+    ],
+    "capture_queue_size": 20,
+    "debug": true
+}
